@@ -27,13 +27,11 @@
 form
 {
     width: 1440px;
-    /* height: 792px; */
-    /* top: -12px;
-    left: -648px;
-    gap: 0px;
-    opacity: 0px; */
+    margin-top: 36px;
+    margin-bottom: 32px;
 
 }
+
 .search-input {
   display: flex;
   width: 371px;
@@ -93,3 +91,31 @@ button:hover{
       /* text-align: left; */
       color: #FFFFFF;
   }
+
+  .list-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+  }
+
+  .list__item {
+    width: 360px;
+    /* height: 200px; */
+  }
+
+  .wrapper{
+   
+    justify-content: center;
+  }
+
+.wrapper-info {
+  display: flex;
+  padding: 4px 25px 4px 20px;
+}
+
+  /* .parameters {
+      flex-basis: calc((100% - 25px)/4);
+      text-align: center;
+      gap: 16px;
+  } */
